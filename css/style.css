@@ -28,23 +28,22 @@
 1. General
 **********************************************************************/
  body {
-    font-family:'Gill Sans', sans-serif;
-    color: #085AF3;
+    font-family:'Roboto', sans-serif;
+    color: #FFF;
     line-height:1.2em;
     font-size:17px;
     line-height:20px;
 }
 a {
-    color:#085AF3;
+    color:#181A1C;
     text-decoration: none;
 }
 a:hover {
-    color: #085AF3;
+    color: #FECE1A;
     text-decoration:none;
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
-
 }
 h1 {
     margin: 10px;
@@ -52,10 +51,10 @@ h1 {
 p {
     padding: 10px;
     font-weight: 100;
-    color: #FFF;
+    color: #fff;
 }
 .navbar {
-    background: #FFF;
+    background: #181A1C;
     margin-bottom:0;
     min-height:70px;
 }
@@ -66,7 +65,7 @@ p {
     padding-top:0;
 }
 .navbar-inner {
-    background: #FFF;
+    background: #181A1C;
     border-radius:0;
     filter: none;
     border: none;
@@ -83,18 +82,17 @@ p {
     margin:10px 3px;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
-    border: 1px solid #fff;
+    border: 1px solid #181A1C;
     box-shadow: none;
     font-size:15px;
     text-shadow: none;
-    color: #085AF3;
+    color: #fff;
     transition: border-color 1s ease;
 }
-
 .navbar .nav > li:hover> a, .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
-    border: 1px solid #085AF3;
-    color: #085AF3;
-    background-color: #FFF;
+    border: 1px solid #FECE1A;
+    color: #fff;
+    background-color: #181A1C;
     transition: border-color 1s ease;
 }
 .nav-pills {
@@ -108,16 +106,16 @@ p {
     margin-right:5px;
     padding-left:25px;
     padding-right:25px;
-    border: 1px solid #FFF;
+    border: 1px solid #181A1C;
 }
 .nav-pills > li > a:hover, .nav-pills > .active > a, .nav-pills > .active > a:hover, .nav-pills > .active > a:focus {
-    background: #FFF;
-    color: #085AF3;
+    background: #181A1C;
+    color: #fff;
 }
 .navbar .btn-navbar:hover, .navbar .btn-navbar {
     border-radius:0;
-    background:#003EB1;
-    color: #FFF;
+    background:#FECE1A;
+    color: #000;
 }
 /******
 2. Layout
@@ -135,7 +133,7 @@ p {
     text-align: center;
 }
 .highlighted-box {
-    background:#fff;
+    background:#F4F8F9;
     padding:20px 30px;
 }
 .highlighted-box h1 {
@@ -144,12 +142,12 @@ p {
 .large-text {
     line-height:1.2em;
     font-size: 30px;
-    color: #FFF;
+    color: #181A1C;
     padding:20px;
     margin-bottom:20px;
 }
 .highlighted-box h1, .highlighted-box p {
-    color: #FFF !important;
+    color: #181A1C !important;
 }
 .circle-border {
     display: inline-block;
@@ -175,19 +173,10 @@ p {
 }
 .triangle {
     margin: 0 auto;
+    text-align:center;
     width: 0;
     height: 0;
-    border-image:url(../images/snow.png);
-    border-top: 50px solid #FFF;
-    border-left: 585px outset transparent;
-    border-right: 585px outset transparent;
-    position: relative;
-}.triangle2 {
-    margin: 0 auto;
-    width: 0;
-    height: 0;
-    border-image:url(../images/snow2.png);
-    border-top: 50px solid #FFF;
+    border-top: 30px solid #181A1C;
     border-left: 585px outset transparent;
     border-right: 585px outset transparent;
     position: relative;
@@ -217,34 +206,34 @@ p {
 **********/
  .button,  .button:visited, .button:focus {
     display:inline-block;
-    border:1px solid #fff;
-    color:#fff;
+    border:1px solid #181A1C;
+    color:#181A1C;
     background-color:transparent;
     padding:15px 30px;
     font-size:17px;
     line-height:auto;
 }
 .button:hover, .button:active{
-    background-color:#003EB1;
+    background-color:#181A1C;
     color:#fff;
 }
 .button-sp, .button-sp:visited, .button-sp:focus {
     border:none;
-    background-color:#003EB1;
-    color:#fff;
+    background-color:#FECE1A;
+    color:#181A1C;
 }
 .button-sp:hover, .button-sp:active {
-    background-color:#003EB1;
-    color:#fff;
+    background-color:#181A1C;
+    color:#FECE1A;
 }
 .button-ps, .button-ps:visited, .button-ps:focus {
     border:none;
-    background-color:#fff;
-    color:#003EB1;
+    background-color:#181A1C;
+    color:#FECE1A;
 }
 .button-ps:hover, .button-ps:active {
-    background-color:#003EB1;
-    color:#fff;
+    background-color:#FECE1A;
+    color:#181A1C;
 }
 /*
 2.3 Thumbnails - Predefined bootstrap's thumbnail class.
@@ -259,7 +248,7 @@ p {
     border-radius:0;
     box-shadow:none;
     text-align:center;
-    background: #003EB1;
+    background: #191a1c;
 }
 .thumbnail .more {
     display:block;
@@ -294,7 +283,7 @@ p {
     z-index:4;
 }
 .thumbnail h3 {
-    color: #003EB1;
+    color: #FECE1A;
     margin-top:10px;
     font-size:20px;
 }
@@ -308,7 +297,7 @@ p {
     left:0;
     width:100%;
     height:100%;
-    background:#003EB1;
+    background:#181A1C;
     position:absolute;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
@@ -340,10 +329,10 @@ p {
     padding:0;
     width:32px;
     height:32px;
-    color: #003EB1;
+    color: #FECE1A;
 }
 .social li a:hover {
-    color:#fff;
+    color:#181A1C;
 }
 /*
 3. Sections
@@ -358,55 +347,46 @@ p {
     text-align: center;
     padding:10px;
     margin-bottom: 30px;
-    text-align: center;
 }
 .section .title h1 {
     font-weight: normal;
     margin-bottom: 20px;
     padding: 0;
-    text-align: center;
-}
-.section .title h3 {
-    font-weight: normal;
-    margin-bottom: 20px;
-    padding: 0;
-    text-align: left;
 }
 .section .title > p {
     font-size: 20px;
     color: #FFF;
     font-weight: lighter;
-    text-align: justify;
 }
 .primary-section {
-    background:#003EB1;
+    background:#181A1C;
 }
 .primary-section .triangle {
-    border-top: 40px solid #003EB1;
+    border-top: 40px solid #FECE1A;
 }
 .primary-section .title {
     border-bottom: 1px solid #FFF;
 }
 .primary-section, .primary-section .title p, .primary-section h3 {
-    color: #FFF;
+    color: #FECE1A;
 }
 .primary-section h1 {
     color:#FFF;
 }
 .secondary-section {
-    background:#003EB1;
+    background:#FECE1A;
 }
 .secondary-section .title {
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #181A1C;
 }
 .secondary-section h1, .secondary-section .title p {
-    color: #fff;
+    color: #181A1C;
 }
 /* Third section use bacground image */
 .third-section {
     padding-bottom: 70px;
-    background: #fff url(../images/brand-bg.png) no-repeat center;
-    border-top:6px solid #003EB1;
+    background: #181A1C url(../images/brand-bg.png) no-repeat center;
+    border-top:6px solid #FECE1A;
 }
 .third-section .container {
     padding-top:20px;
@@ -414,7 +394,7 @@ p {
 }
 .third-section .title {
     border-bottom: 1px solid #A1AAB7;
-    color: #003EB1;
+    color: #FECE1A;
 }
 .sub-section {
     margin-top:30px;
@@ -444,7 +424,7 @@ p {
 ***************************************/
  .single-project {
     margin-bottom:30px;
-    background:#fff;
+    background:#181A1C;
 }
 .single-project img {
     width:100%;
@@ -458,7 +438,7 @@ p {
 .project-title {
     margin-top:15px;
     margin-bottom:15px;
-    border-bottom:1px solid #003EB1;
+    border-bottom:1px solid #FECE1A;
 }
 .project-title h3 {
     float:left;
@@ -467,11 +447,11 @@ p {
     width:80%;
 }
 .project-title .close {
-    color: #003EB1;
+    color: #FECE1A;
     margin-top:10px;
 }
 .project-info span, .project-title h3 {
-    color:#003EB1;
+    color:#FECE1A;
 }
 .project-info {
     font-weight:100;
@@ -511,7 +491,7 @@ p {
     color:#fff;
 }
 .team .thumbnail .mask {
-    background: #003EB1;
+    background: #FECE1A;
 }
 .team .thumbnail .mask h2 {
     margin-top:20%;
@@ -547,12 +527,12 @@ p {
     margin:0;
     left: 10px;
     z-index: 1;
-    color: #fff;
+    color: #181A1C;
 }
 .skills li .bar {
     height:40px;
     position:absolute;
-    background-color: #003EB1;
+    background-color: #FECE1A;
 }
 /*
 3.4 Clients
@@ -561,7 +541,7 @@ p {
     border:1px solid white;
 }
 .client-slider img:hover {
-    background-color:#003EB1;
+    background-color:#FECE1A;
 }
 .client-nav {
     list-style:none;
@@ -575,24 +555,24 @@ p {
 .client-nav li a {
     display:inherit;
     padding:5px;
-    background:#fff;
+    background:#FECE1A;
     border-radius:3px;
     width:20px;
     height:20px;
 }
 .client-nav li a:hover {
-    background:#003EB1;
+    background:#181A1C;
 }
 .testimonial p {
-    color:#fff;
-    background:#003EB1;
+    color:#181A1C;
+    background:#FECE1A;
     padding:15px;
     margin:0;
 }
 .testimonial .arrow {
     margin-left:10px;
     width:0;
-    border-top:10px solid #003EB1;
+    border-top:10px solid #FECE1A;
     border-left: 20px outset transparent;
     border-right: 20px outset transparent;
 }
@@ -641,10 +621,10 @@ p {
     text-align:center;
 }
 .price-column h3 {
-    background-color:#003EB1;
+    background-color:#181A1C;
     text-transform:uppercase;
     text-align: center;
-    color:#003EB1;
+    color:#FECE1A;
     padding:40px 0px;
     font-size: 36px;
     margin-top:0px;
@@ -673,7 +653,7 @@ p {
 .price-text{
     margin:30px 0 20px;
     font-size:20px;
-    color: #fff;
+    color: #181A1C;
     font-weight:normal;
 }
 /*
@@ -700,17 +680,17 @@ p {
 }
 .newsletter .button-sp:hover, .newsletter .button-sp:active {
     background-color:#FFF;
-    color:#fff;
+    color:#181A1C;
 }
 
 /*
 3.7 Contact
 ********************************************************************/
  .contact {
-    background: #003EB1;
+    background: #FECE1A;
 }
 .contact h1, .contact h2, .contact h3, .contact h4, .contact h5, .contact h6, .contact .section .title > p, .contact .social > li > a {
-    color: #fff;
+    color: #181A1C;
 }
 .contact textarea, .contact input[type="text"], .contact input[type="email"] {
     padding: 10px;
@@ -773,7 +753,7 @@ p {
     color:#fff;
 }
 .contact .social li a:hover {
-    color:#fff;
+    color:#181A1C;
 }
 .contact-form {
     background:#fff;
@@ -795,7 +775,7 @@ p {
     font-size:17px;
 }
 .message-btn:hover {
-    background-color:#003EB1;
+    background-color:#FECE1A;
 }
 .contact-info {
     text-align:center;
@@ -806,16 +786,16 @@ p {
     width:60%;
     margin:0 auto;
     padding:15px;
-    color:#fff;
+    color:#181A1C;
 }
 .black {
-    color:#fff;
+    color:#181A1C;
 }
 /*
 3.8 Footer
 ********************************************************************/
  .footer {
-    background: #fff;
+    background: #181A1C;
     text-align: center;
 }
 .footer > p {
@@ -824,7 +804,7 @@ p {
 }
 
 .footer a{
-    color:#003EB1;
+    color:#FECE1A;
 }
 
 .footer a:hover, .footer a:focus{
@@ -843,7 +823,7 @@ p {
     right:20px;
 	border:1px solid #fff;
     display:none;
-    background: #003EB1;
+    background: #FECE1A;
 }
 .scrollup > a {
     position:relative;
