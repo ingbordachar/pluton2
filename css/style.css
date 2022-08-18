@@ -27,12 +27,16 @@
 /*
 1. General
 **********************************************************************/
+html {
+    height: 100%;
+}
  body {
     font-family:'Roboto', sans-serif;
     color: #FFF;
     line-height:1.2em;
     font-size:17px;
     line-height:20px;
+    min-height: 100%;
 }
 a {
     color:#FFF;
