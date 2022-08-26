@@ -1,7 +1,7 @@
 .da-slider {
     width: 100%;
-    min-width: 320px;
-    height: 800px;
+    min-width: 400px;
+    height: 550px;
     position: relative;
     margin:0 auto;
     overflow: hidden;
@@ -31,7 +31,7 @@
     filter: alpha(opacity=85);
 }
 .da-slider .container {
-    margin-top:-30px;
+    margin-top:-20px;
     position:relative;
     height:100%;
 }
@@ -104,7 +104,7 @@
     font-weight: 400;
 }
 .da-slide .da-img {
-    text-align: center;
+    text-align: left;
     width: 40%;
     top: 80px;
     height: 256px;
@@ -574,7 +574,7 @@
     }
     100% {
         left: 10%;
-        opacity: 1;
+        opacity: 1;-
     }
 }
 @-o-keyframes fromLeftAnim2 {
@@ -1321,12 +1321,12 @@
 
 @media (max-width: 480px) {
     .da-slide h2 {
-        font-size: 16px;
-        top:30px;
+        font-size: 13px;
+        top:25px;
     }
     .da-slide h4{
-        font-size: 14px;
-        top: 70px;
+        font-size: 12px;
+        top: 60px;
     }
 
     .da-slide .da-img {

@@ -210,10 +210,10 @@ p {
 **********/
  .button,  .button:visited, .button:focus {
     display:inline-block;
-    border:1px solid #FFF;
+    border:1px solid white;
     color:#FFF;
     background-color:transparent;
-    padding:15px 30px;
+    padding:3px 30px;
     font-size:17px;
     line-height:auto;
 }

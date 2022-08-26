@@ -23,7 +23,7 @@
 
 .bx-wrapper ul{
     margin:0;
-    
+
 }
 
 .bx-wrapper .circle-border{
@@ -37,7 +37,7 @@
     margin-right: auto;
 	display: block;
     opacity:1;
-    
+
 }
 
 .bxslider{
@@ -53,7 +53,7 @@
 .bx-viewport{
     opacity:1;
 }
-    
+
 /** THEME
 ===================================*/
 
@@ -134,11 +134,11 @@
 }
 
 
-   
+
 
 .bx-wrapper .bx-prev {
 	left: 10px;
-       
+
 
 	background: url(../images/Left-grey.png) no-repeat center;
 }
