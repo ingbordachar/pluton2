@@ -37,7 +37,7 @@ html {
     font-size:17px;
     line-height:20px;
     min-height: 100%;
-    
+
 }
 a {
     color:#FFF;
@@ -648,8 +648,12 @@ p {
 3.7 Contact
 ********************************************************************/
  .contact {
-    background: #003EB1;
+
+    background-color:#003EB1;
     text-align: center;
+    margin-top: 5px ;
+    margin-bottom: 5px;
+
 
 }
 .contact h1, .contact h2, .contact h3, .contact h4, .contact h5, .contact h6, .contact .section .title > p, .contact .social > li > a {
