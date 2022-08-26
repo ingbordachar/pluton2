@@ -37,6 +37,7 @@ html {
     font-size:17px;
     line-height:20px;
     min-height: 100%;
+    
 }
 a {
     color:#FFF;
@@ -610,6 +611,7 @@ p {
 .price-table {
 }
 .price2{
+
     font-size:20px;
     color: #FFF;
     background-color: #003EB1;
@@ -647,38 +649,46 @@ p {
 ********************************************************************/
  .contact {
     background: #003EB1;
+    text-align: center;
+
 }
 .contact h1, .contact h2, .contact h3, .contact h4, .contact h5, .contact h6, .contact .section .title > p, .contact .social > li > a {
     color: #FFF;
+    border-top: 50px;
 }
 .contact textarea, .contact input[type="text"], .contact input[type="email"] {
     padding: 10px;
     line-height: 20px;
     height: auto;
+    border-top: 50px;
 }
 .contact textarea {
     height: 120px;
+    border-top: 50px;
 }
 .contacts, .contact .social {
     color: #003EB1;
     list-style: none;
     margin-left: 10px;
+    border-top: 50px;
 }
 .contacts > li {
-    margin-top: 15px;
+    margin-top: 100px;
+    border-top: 50px;
 }
 .contacts > li > a {
     color: #FFF;
+    margin-top: 100px;
 }
 .contact-info {
-    margin-top:10px;
-    margin-bottom:10px;
+    margin-top:100px;
+    margin-bottom:100px;
 }
 .contact-info p{
      font-weight:normal;
 }
 .contact-info .icon {
-    margin:10px auto;
+    margin:100px auto;
     font-size:30px;
 }
 .map-wrapper {
