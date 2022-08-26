@@ -288,7 +288,7 @@ p {
 }
 .thumbnail h3 {
     color: #FFF;
-    margin-top:10px;
+    margin-top:5px;
     font-size:20px;
 }
 .thumbnail > p {
@@ -384,24 +384,20 @@ p {
     border-bottom: 1px solid #003EB1;
 }
 .secondary-section h1, .secondary-section .title p {
-    color: #fff;
+    color: #003EB1;
 }
 /* Third section use bacground image */
 .third-section {
-    padding-bottom: 70px;
-    background: #003EB1 url(../images/brand-bg.png) no-repeat center;
-    border-top:6px solid #FFF;
+    background: #003EB1 ;
 }
 .third-section .container {
-    padding-top:20px;
     position:relative;
 }
 .third-section .title {
-    border-bottom: 1px solid #FFF;
     color: #FFF;
 }
 .sub-section {
-    margin-top:30px;
+    margin-top:10px;
 }
 .sub-section .title {
     padding:0;
@@ -617,20 +613,13 @@ p {
 }
 .price-column {
     background-color:#003EB1;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    padding-bottom:20px;
-    margin:0 auto;
     text-align:center;
 }
 .price-column h3 {
     background-color:#003EB1;
-    text-transform:uppercase;
     text-align: center;
     color:#FFF;
     padding:40px 0px;
-    font-size: 36px;
     margin-top:0px;
     -moz-border-radius: 0px;
     -webkit-border-radius: 10px 10px 0px 0px;
@@ -644,7 +633,7 @@ p {
     font-weight:lighter;
     color:#FFF;
     font-size:20px;
-    border-bottom:1px solid #FFF;
+    border-bottom:1px solid #003EB1;
     padding:25px 0px;
 }
 .price-column .list li.price {
