@@ -417,8 +417,8 @@ p {
     height:60px;
 }
 .service img {
-    width:75px;
-    height:75px;
+    width:150px;
+    height:150px;
 }
 /*
 3.2 Portfolio
@@ -426,6 +426,7 @@ p {
  .single-project {
     margin-bottom:30px;
     background:#4282ca;
+
 }
 .single-project img {
     width:100%;
@@ -453,6 +454,7 @@ p {
 }
 .project-info span, .project-title h3 {
     color:#FFF;
+    margin-right: 70px;
 }
 .project-info {
     font-weight:100;
@@ -474,6 +476,17 @@ p {
 #portfolio-grid .mix {
     opacity: 0;
     display: none;
+}
+#close {
+    float: right;
+    font-weight: bold;
+    color: red;
+}
+
+#element {
+    min-height: 100px;
+    box-shadow: 0 2px 5px #666666;
+    padding: 10px;
 }
 /*
 3.3 About
