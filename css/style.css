@@ -783,6 +783,7 @@ p {
 .footer > p {
     color: #FFF;
     margin:0;
+    font-size: 30px;
 }
 
 .footer a{
