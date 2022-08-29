@@ -81,7 +81,6 @@ p {
     height:40px;
 }
 .navbar .nav > li > a {
-    text-transform:uppercase;
     line-height: auto;
     vertical-align: middle;
     margin:10px 3px;
@@ -121,6 +120,7 @@ p {
     border-radius:0;
     background:#003EB1;
     color: #FFF;
+
 }
 /******
 2. Layout
@@ -236,6 +236,7 @@ p {
     background-color:#003EB1;
     color:#FFF;
 }
+
 .button-ps:hover, .button-ps:active {
     background-color:#003EB1;
     color:#FFF;
