@@ -628,6 +628,7 @@ p {
     color: #FFF;
     background-color: #003EB1;
     text-align: center;
+
 }
 /*
 3.6 Newsletter
@@ -780,11 +781,14 @@ p {
  .footer {
     background: #003EB1;
     text-align: center;
+    border-top: : 1px solid #FFF;
+
 }
 .footer > p {
     color: #FFF;
     margin:0;
     font-size: 30px;
+    border-top: 1px solid #FFF;
 }
 
 .footer a{
