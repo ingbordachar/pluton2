@@ -352,8 +352,15 @@ p {
  .section {
     padding-bottom: 50px;
 }
+.section2 {
+   padding-bottom: 50px;
+}
 .section .container {
     padding-top:10px;
+}
+.section2 .container {
+    padding-top:10px;
+    color: #fff;
 }
 .section .title {
     text-align: left;
@@ -385,6 +392,9 @@ p {
 .primary-section h1 {
     color:#FFF;
 }
+
+
+
 .primary-section2 {
     background:#fff;
 }
@@ -394,13 +404,13 @@ p {
 .primary-section2 .title {
     border-bottom: 1px solid #003EB1;
 }
-.primary-section2, .primary-section .title p, .primary-section h3 {
+.primary-section2, .primary-section2 .title p, .primary-section2 h3 {
     color: #003EB1;
 }
 .primary-section2 h1 {
     color:#003EB1;
 }
-.secondary-section {
+.secondary-section2 {
     background:#003EB1;
 }
 .secondary-section2 {
@@ -413,12 +423,11 @@ p {
     border-bottom: 1px solid #fff;
 }
 .secondary-section h1, .secondary-section .title p {
-    color: #003EB1;
+    color: #fff;
 }
 .secondary-section2 h1, .secondary-section .title p {
     color: #fff;
 }
-
 /* Third section use bacground image */
 .third-section {
     background: #003EB1 ;
