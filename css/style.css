@@ -494,9 +494,10 @@ p {
 .project-info {
     font-weight:100;
     padding:10px 0;
+    color:#FFF;
 }
 .project-info span {
-    width: 10px;
+    width: 30px;
     display: inline-block;
 }
 .project-info div {
