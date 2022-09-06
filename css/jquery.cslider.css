@@ -1334,9 +1334,7 @@
       width:25%;
     }
 
-    .da-slide .da-link {
-        display:none;
-    }
+  
     @media (max-width: 400px) {
         .da-slide h2 {
             font-size: 13px;
@@ -1352,8 +1350,6 @@
           width:20%;
         }
 
-        .da-slide .da-link {
-            display:none;
-        }
+
 
 }

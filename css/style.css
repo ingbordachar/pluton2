@@ -185,6 +185,12 @@ p {
     border-left: 585px outset transparent;
     border-right: 585px outset transparent;
     position: relative;
+    background-color:white;
+
+}
+.triangle2 {
+    background-color:white;
+
 }
 /*
 2.1 Animations
@@ -379,18 +385,46 @@ p {
 .primary-section h1 {
     color:#FFF;
 }
+.primary-section2 {
+    background:#fff;
+}
+.primary-section2 .triangle {
+    border-top: 40px solid #003EB1;
+}
+.primary-section2 .title {
+    border-bottom: 1px solid #003EB1;
+}
+.primary-section2, .primary-section .title p, .primary-section h3 {
+    color: #003EB1;
+}
+.primary-section2 h1 {
+    color:#003EB1;
+}
 .secondary-section {
     background:#003EB1;
+}
+.secondary-section2 {
+    background:#FFF;
 }
 .secondary-section .title {
     border-bottom: 1px solid #003EB1;
 }
+.secondary-section2 .title {
+    border-bottom: 1px solid #fff;
+}
 .secondary-section h1, .secondary-section .title p {
     color: #003EB1;
 }
+.secondary-section2 h1, .secondary-section .title p {
+    color: #fff;
+}
+
 /* Third section use bacground image */
 .third-section {
     background: #003EB1 ;
+}
+.third-section2 {
+    background: #fff ;
 }
 .third-section .container {
     position:relative;
