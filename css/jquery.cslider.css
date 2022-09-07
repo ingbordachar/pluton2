@@ -115,7 +115,7 @@
 .da-slide .da-link {
     top: 340px;
     margin:0;
-    font-size: auto;
+    font-size: 300px;
     text-align: center;
 }
 .da-dots {
@@ -1333,19 +1333,27 @@
 
       width:25%;
     }
-
+    .da-slide .da-link{
+        margin:0;
+        font-size:12px;
+        top:100px;
+    }
 
     @media (max-width: 400px) {
-    .da-slide h2 {
+        .da-slide h2 {
             font-size: 13px;
             top:25px;
         }
-    .da-slide h4{
+        .da-slide h4{
             font-size: 12px;
             top: 60px;
         }
 
-    .da-slide .da-img {
+        .da-slide .da-img {
+
           width:20%;
         }
+
+
+
 }
