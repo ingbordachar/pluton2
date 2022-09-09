@@ -35,7 +35,7 @@ html {
     color: #FFF;
     line-height:1.2em;
     font-size:17px;
-    line-height:20px;
+    line-height: 30px;
     min-height: 100%;
 
 }
@@ -55,7 +55,7 @@ h1 {
 }
 p {
     padding: 10px;
-    font-weight: 100;
+    font-weight: 150;
     color: #FFF;
 }
 .navbar {
@@ -156,10 +156,10 @@ p {
 }
 .circle-border {
     display: inline-block;
-    -webkit-border-radius: 500px;
-    -moz-border-radius: 500px;
-    border-radius: 500px;
-    -khtml-border-radius: 500px;
+    -webkit-border-radius: 250px;
+    -moz-border-radius: 250px;
+    border-radius: 250px;
+    -khtml-border-radius: 250px;
     border: 3px solid #FFF;
 }
 .left-align {
@@ -350,30 +350,30 @@ p {
 3. Sections
 ***************************************************************************/
  .section {
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
 .section2 {
    padding-bottom: 50px;
 }
 .section .container {
-    padding-top:10px;
+    padding-top:3px;
 }
 .section2 .container {
-    padding-top:10px;
+    padding-top:3px;
     color: #fff;
 }
 .section .title {
     text-align: left;
-    padding:10px;
-    margin-bottom: 30px;
+    padding:3px;
+    margin-bottom: 3px;
 }
 .section .title h1 {
     font-weight: normal;
-    margin-bottom: 20px;
+    margin-bottom: 3px;
     padding: 0;
 }
 .section .title > p {
-    font-size: 20px;
+    font-size: 23px;
     color: #FFF;
     font-weight: lighter;
 }
@@ -381,7 +381,7 @@ p {
     background:#003EB1;
 }
 .primary-section .triangle {
-    border-top: 40px solid #FFF;
+    border-top: 10px solid #FFF;
 }
 .primary-section .title {
     border-bottom: 1px solid #FFF;
@@ -451,7 +451,7 @@ p {
 3.1 Services
 ***************************************/
 .service{
-    margin-top:20px;
+    margin-top:10px;
 }
  .service, .service h2 {
     padding-top:5px;
@@ -461,8 +461,8 @@ p {
     height:60px;
 }
 .service img {
-    width:150px;
-    height:150px;
+    width:125px;
+    height:125px;
 }
 /*
 3.2 Portfolio
@@ -668,7 +668,7 @@ p {
 .price-table {
 }
 .price2 {
-    font-size:20px;
+    font-size:17px;
     color: #FFF;
     background-color: #003EB1;
     text-align: center;
@@ -713,17 +713,17 @@ p {
 }
 .contact h1, .contact h2, .contact h3, .contact h4, .contact h5, .contact h6, .contact .section .title > p, .contact .social > li > a {
     color: #FFF;
-    border-top: 50px;
+    border-top: 10px;
 }
 .contact textarea, .contact input[type="text"], .contact input[type="email"] {
     padding: 10px;
     line-height: 20px;
     height: auto;
-    border-top: 50px;
+    border-top: 10px;
 }
 .contact textarea {
     height: 120px;
-    border-top: 50px;
+    border-top: 10px;
 }
 .contacts, .contact .social {
     color: #003EB1;
@@ -733,7 +733,7 @@ p {
 }
 .contacts > li {
     margin-top: 100px;
-    border-top: 50px;
+    border-top: 10px;
 }
 .contacts > li > a {
     color: #FFF;
@@ -823,16 +823,16 @@ p {
 3.8 Footer
 ********************************************************************/
  .footer {
-    background: #003EB1;
+    background: #FFF;
     text-align: center;
-    border-top: : 1px solid #FFF;
+    border-top: : 5px solid #003EB1;
 
 }
 .footer > p {
-    color: #FFF;
+    color: #003EB1;
     margin:0;
     font-size: 30px;
-    border-top: 1px solid #FFF;
+    border-top: 5px solid #003EB1;
 }
 
 .footer a{
