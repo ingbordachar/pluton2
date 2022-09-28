@@ -218,15 +218,16 @@ p {
  .button,  .button:visited, .button:focus {
     display:inline-block;
     border:1px solid white;
-    color:#FFF;
-    background-color:transparent;
+    color:#003EB1;
+    background-color:#FFF;
     padding:7px 7px;
     font-size:18px;
     line-height:auto;
+    border-top: 100px;
 }
 .button:hover, .button:active{
-    background-color:#003EB1;
-    color:#FFF;
+    background-color:#FFF;
+    color:#003EB1;
 }
 .button-sp, .button-sp:visited, .button-sp:focus {
     border:none;
@@ -234,8 +235,8 @@ p {
     color:#003EB1;
 }
 .button-sp:hover, .button-sp:active {
-    background-color:#003EB1;
-    color:#FFF;
+    background-color:#FFF;
+    color:#003EB1;
 }
 .button-ps, .button-ps:visited, .button-ps:focus {
     border:none;
@@ -672,7 +673,7 @@ p {
     color: #FFF;
     background-color: #003EB1;
     text-align: center;
-  
+
 
 }
 /*

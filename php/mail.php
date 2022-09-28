@@ -9,13 +9,13 @@ if (!empty($_POST)){
   $_POST  = multiDimensionalArrayMap('cleanData', $_POST);
 
   //your email adress
-  $emailTo ="comercialbordachar@bordachar.cl"; //"yourmail@yoursite.com";
+  $emailTo ="francisco@bordachar.cl"; //"yourmail@yoursite.com";
 
   //from email adress
   $emailFrom ="bordachar@bordachar.cl"; //"contact@yoursite.com";
 
   //email subject
-  $emailSubject = "Cotizar desde página";
+  $emailSubject = "Mail from Porta";
 
   $name = $_POST["name"];
   $email = $_POST["email"];

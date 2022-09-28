@@ -95,7 +95,7 @@
     font-weight: normal;
 }
 .da-slide p {
-    width: 45%;
+    width: 50%;
     padding:0px;
     top: 230px;
     color: #fff;
@@ -105,7 +105,7 @@
 }
 .da-slide .da-img {
     text-align: left;
-    width: 40%;
+    width: 50%;
     top: 80px;
     height: 256px;
     line-height: 360px;
@@ -113,8 +113,8 @@
     /*60%*/
 }
 .da-slide .da-link {
-    top: 340px;
-    margin:0;
+    top: 330px;
+    margin:0 auto;
     font-size: auto;
     text-align: center;
 }
