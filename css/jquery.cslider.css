@@ -113,8 +113,8 @@
     /*60%*/
 }
 .da-slide .da-link {
-    top: 330px;
-    margin:0 auto;
+    bottom: 50px;
+    margin:0;
     font-size: auto;
     text-align: center;
 }
