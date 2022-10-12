@@ -37,7 +37,7 @@ html {
     font-size:19px;
     line-height: 24px;
     min-height: 100%;
-    text-align: justify;
+    text-align:inherit;
 
 }
 a {
@@ -598,7 +598,7 @@ p {
 3.4 Clients
 **********************************************************************/
  .client-slider img {
-    border:1px solid 1B2246;
+    border:1px solid #1B2246;
 }
 .client-slider img:hover {
     background-color:#fff;
@@ -827,16 +827,16 @@ p {
 3.8 Footer
 ********************************************************************/
  .footer {
-    background: #1B2246;
+    background: #fff;
     text-align: center;
-    border-top: : 1px solid #1B2246;
+    border-top: : 10px solid #1B2246;
 
 }
 .footer > p {
-    color: #fff;
+    color: #1B2246;
     margin:0;
     font-size: 25px;
-    border-top: 0px solid #1B2246;
+    border-top: 10px solid #fff;
 }
 
 .footer a{
@@ -859,7 +859,7 @@ p {
     right:20px;
 	border:1px solid #003EB1C;
     display:none;
-    background: #1B2246
+    background: #1B2246;
 }
 .scrollup > a {
     position:relative;
