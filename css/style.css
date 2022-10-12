@@ -31,12 +31,13 @@ html {
     height: 100%;
 }
  body {
-    font-family:'Segoe UI', sans-serif;
+    font-family:'Calibri';
     color: #FFF;
-    line-height:1.2em;
-    font-size:17px;
-    line-height: 30px;
+    line-height:1.0em;
+    font-size:19px;
+    line-height: 24px;
     min-height: 100%;
+    text-align: justify;
 
 }
 a {
@@ -49,12 +50,13 @@ a:hover {
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
+    font-family:'Calibri';
 }
 h1 {
     margin: 0;
 }
 p {
-    padding: 10px;
+    padding: 1px;
     font-weight: 150;
     color: #FFF;
 }
@@ -333,7 +335,7 @@ p {
 .social li {
     display:inline-block;
     line-height: 32px;
-    font-family:'Porta';
+    font-family:'Calibri';
     font-size: 32px;
     padding:0 5px;
 }
@@ -774,7 +776,7 @@ p {
 .contact .social li {
     line-height: 32px;
     padding:10px 10px;
-    font-family:'Porta';
+    font-family:'Calibri';
     font-size: 50px;
     transition: margin 0.4s;
     -webkit-transition: margin 0.4s;
