@@ -63,10 +63,10 @@ overflow: hidden;
 }
 @keyframes cambio2{
  0%{margin-left: 0;}
- 30%{margin-left: 0;}
+ 25%{margin-left: 0;}
 
  33.3%{margin-left: -100%;}
- 66.3%{margin-left: -100%;}
+ 58.6%{margin-left: -100%;}
 
  66.6%{margin-left: -200%;}
  100%{margin-left: -200%;}
