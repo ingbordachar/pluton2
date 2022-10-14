@@ -47,9 +47,7 @@ a {
 a:hover {
     color: #1B2246;
     text-decoration:none;
-    transition-property: all;
-  transition-duration: 0.5s;
-  transition-timing-function: linear;
+    
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
@@ -68,14 +66,7 @@ p {
     margin-bottom:0;
     min-height:70px;
 }
-.fade
-{
-        opacity:0.5;
-}
-.fade:hover
-{
-        opacity:1;
-}
+
 .navbar-fixed-top {
     min-height:60px;
     height:60px;
