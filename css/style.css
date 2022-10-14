@@ -827,16 +827,17 @@ p {
 3.8 Footer
 ********************************************************************/
  .footer {
-    background: #fff;
+    background: #1B2246;
     text-align: center;
     border-top: : 10px solid #1B2246;
+    border-bottom: 10px solid #1B2246;
 
 }
 .footer > p {
-    color: #1B2246;
+    color: #fff;
     margin:0;
     font-size: 25px;
-    border-top: 10px solid #fff;
+    border-top: 10px solid #1B2246;
 }
 
 .footer a{
