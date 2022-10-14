@@ -384,7 +384,10 @@ p {
     background:#fff;
 }
 .primary-section .triangle {
-    border-top: 10px solid #1B2246;
+  background: transparent url(../images/fondo_vid.png) repeat-x 0% center; /* Replace with your background image*/
+  background-size:auto 100%;
+  opacity: 0.6;
+  }
 }
 .primary-section .title {
     border-bottom: 1px solid #1B2246;
