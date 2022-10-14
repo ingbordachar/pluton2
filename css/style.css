@@ -360,6 +360,7 @@ p {
 }
 .section .container {
     padding-top:3px;
+    color: #1B2246;
 }
 .section2 .container {
     padding-top:3px;
@@ -382,6 +383,7 @@ p {
 }
 .primary-section {
     background:#fff;
+
 }
 .primary-section .triangle {
   background: transparent url(../images/fondo_vid.png) repeat-x 0% center; /* Replace with your background image*/
