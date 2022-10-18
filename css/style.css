@@ -84,6 +84,7 @@ p {
     height:40px;
 }
 .navbar .nav > li > a {
+    font-weight: bold;
     text-transform:uppercase;
     line-height: auto;
     vertical-align: middle;
@@ -96,6 +97,7 @@ p {
     text-shadow: none;
     color: #1B2246;
     transition: border-color 1s ease;
+
 }
 .navbar .nav > li:hover> a, .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
     border: 1px solid #fff;
