@@ -47,7 +47,7 @@ a {
 a:hover {
     color: #1B2246;
     text-decoration:none;
-    
+
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
@@ -84,10 +84,11 @@ p {
     height:40px;
 }
 .navbar .nav > li > a {
+    text-transform:uppercase;
     line-height: auto;
     vertical-align: middle;
     margin:10px 3px;
-    -webkit-box-shadow: none;+
+    -webkit-box-shadow: none;
     -moz-box-shadow: none;
     border: 1px solid #FFF;
     box-shadow: none;
@@ -224,9 +225,8 @@ p {
     color:#1B2246;
     background-color:#FFF;
     padding:7px 7px;
-    font-size:18px;
+    font-size:17px;
     line-height:auto;
-    border-top: 100px;
 }
 .button:hover, .button:active{
     background-color:#FFF;
@@ -478,7 +478,7 @@ p {
 ***************************************/
  .single-project {
     margin-bottom:30px;
-    background:#4282ca;
+    background:#FFF;
 
 }
 .single-project img {

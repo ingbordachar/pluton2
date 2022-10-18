@@ -44,7 +44,7 @@ overflow: hidden;
 }
 .slidery{
 width: 100%;
-height: 200px;
+height: 400px;
 overflow: hidden;
 }
 .slidery ul{
@@ -58,8 +58,8 @@ overflow: hidden;
  list-style: none;
 }
 .slidery img{
- width: 400px;
- height: 200px;
+ width: 500px;
+ height: 330px;
 }
 @keyframes cambio2{
  0%{margin-left: 0;}
@@ -75,4 +75,42 @@ overflow: hidden;
 .slider, .slider ul, .slider img{
  height: 100vh;
 }
+}
+.sliderz{
+width: 100%;
+height: 400px;
+overflow: hidden;
+}
+.sliderz ul{
+ display: flex;
+ animation: cambio3 20s infinite alternate linear;
+ width: 600%;
+ text-align: center;
+}
+.sliderz li{
+ width: 100%;
+ list-style: none;
+}
+.sliderz img{
+ width: 500px;
+ height: 330px;
+}
+@keyframes cambio3{
+ 0%{margin-left: 0;}
+ 12.5%{margin-left: 0;}
+
+ 17.5%{margin-left: -100%;}
+ 30%{margin-left: -100%;}
+
+ 35%{margin-left: -200%;}
+ 47.5%{margin-left: -200%;}
+
+ 52.5%{margin-left: -300%;}
+ 65%{margin-left: -300%;}
+
+ 70%{margin-left: -400%;}
+ 82.5%{margin-left: -400%;}
+
+ 87.5%{margin-left: -500%;}
+ 100%{margin-left: -500%;}
 }
