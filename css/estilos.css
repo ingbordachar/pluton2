@@ -5,8 +5,8 @@
 }
 
 .sliderx{
-width: 100%;
-height: 200px;
+  width: 100%auto;
+  height: 100%auto;
 overflow: hidden;
 }
 .sliderx ul{
@@ -20,7 +20,7 @@ overflow: hidden;
  list-style: none;
 }
 .sliderx img{
- width: 400px;
+ width: 300px;
  height: 200px;
 }
 @keyframes cambio{
@@ -43,8 +43,8 @@ overflow: hidden;
  100%{margin-left: -500%;}
 }
 .slidery{
-width: 100%;
-height: 400px;
+width: 100%auto;
+height: 100%auto;
 overflow: hidden;
 }
 .slidery ul{
@@ -77,8 +77,8 @@ overflow: hidden;
 }
 }
 .sliderz{
-width: 100%;
-height: 400px;
+  width: 100%auto;
+  height: 100%auto;
 overflow: hidden;
 }
 .sliderz ul{
