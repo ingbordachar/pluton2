@@ -235,23 +235,23 @@ p {
     color:#1B2246;
 }
 .button-sp, .button-sp:visited, .button-sp:focus {
-    border:none;
-    background-color:#FFF;
-    color:#1B2246;
+    border: 1px solid #000;
+    background-color:#1B2246;
+    color:#fff;
 }
 .button-sp:hover, .button-sp:active {
-    background-color:#FFF;
-    color:#1B2246;
+    background-color:#1B2246;
+    color:#fff;
 }
 .button-ps, .button-ps:visited, .button-ps:focus {
-    border:none;
-    background-color:#fff;
-    color:#1B2246;
+    border: 1px solid #000;
+    background-color:#1B2246;
+    color:#fff;
 }
 
 .button-ps:hover, .button-ps:active {
-    background-color:#fff;
-    color:#1B2246;
+    background-color:#1B2246;
+    color:#fff;
 }
 /*
 2.3 Thumbnails - Predefined bootstrap's thumbnail class.
@@ -701,16 +701,16 @@ p {
     text-align:right;
 }
 .newsletter input {
-    margin-top:10px;
-    padding:15px;
+    margin-top:5px;
+    padding:5px;
     height: auto;
 }
 .newsletter button {
-    margin: 0 0 0 20px;
+    margin: 0 0 0 25px;
 }
 .newsletter .button-sp:hover, .newsletter .button-sp:active {
-    background-color:#fff;
-    color:#1B2246;
+    background-color:#1B2246;
+    color:#fff;
 }
 
 /*
@@ -718,7 +718,7 @@ p {
 ********************************************************************/
  .contact {
 
-    background-color:#fff;
+    background-color:#aaa;
     text-align: center;
 
 
@@ -800,8 +800,8 @@ p {
     color:#1B2246;
     z-index:110;
     position:relative;
-    margin-top:-25px;
-    padding:20px;
+    height: auto;
+    padding-top:10%;
 }
 .contact-form h3 {
     color:#1B2246;
@@ -811,7 +811,7 @@ p {
     border:1px solid #1B2246;
     color:#1B2246;
     background-color:transparent;
-    padding:15px 30px;
+    padding:15px 15px;
     font-size:17px;
 }
 .message-btn:hover {
@@ -844,7 +844,7 @@ p {
 .footer > p {
     color: #fff;
     margin:0;
-    font-size: 25px;
+    font-size: 20px;
     border-top: 10px solid #1B2246;
 }
 
@@ -955,6 +955,7 @@ p {
   }
   .embed-container iframe {
       position: absolute;
+      border-style: dotted;
       top:0;
       left: 0;
       width: 100%;
