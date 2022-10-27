@@ -1110,8 +1110,8 @@ input[type="color"],
 input,
 textarea,
 .uneditable-input {
-  width: 400px;
-  height: 200px;
+  width: 300px;
+  height: 150px;
 }
 
 
@@ -1965,7 +1965,7 @@ legend + .control-group {
 
 .form-horizontal .control-label {
   float: left;
-  width: 160px;
+  width: 100px;
   padding-top: 5px;
   text-align: right;
 }
