@@ -132,7 +132,7 @@ p {
 2. Layout
 **********************************************************************/
 .centered {
-    margin-left:auto;
+    margin-left:;
     margin-right:auto;
     float: none;
     text-align: center;
@@ -734,7 +734,7 @@ p {
     border-top: 10px;
 }
 .contact textarea {
-    height: 120px;
+    height: 10px;
     border-top: 10px;
 }
 .contacts, .contact .social {
