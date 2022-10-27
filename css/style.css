@@ -441,7 +441,7 @@ p {
 }
 /* Third section use bacground image */
 .third-section {
-    background: #fff ;
+  background: #fff ;
 }
 .third-section2 {
     background: #fff ;
@@ -796,7 +796,7 @@ p {
     color:#1B2246;
 }
 .contact-form {
-    background:#fff;
+    opacity: 0.9;;
     color:#1B2246;
     z-index:110;
     position:relative;
